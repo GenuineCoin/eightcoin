@@ -76,6 +76,7 @@ add_dependencies(SimpleWallet version)
 add_dependencies(PaymentGateService version)
 add_dependencies(P2P version)
 
+
 set_property(TARGET ConnectivityTool PROPERTY OUTPUT_NAME "Genuineconn")
 set_property(TARGET SimpleWallet PROPERTY OUTPUT_NAME "Genuinewallet")
 set_property(TARGET PaymentGateService PROPERTY OUTPUT_NAME "Genuinegate")
