@@ -442,5 +442,3 @@ namespace Crypto {
     return sc_isnonzero(reinterpret_cast<unsigned char*>(&h)) == 0;
   }
 }
-
-return sizeof(rs_comm) + pubs_count * sizeof(((rs_comm*)0)->ab[0]);
