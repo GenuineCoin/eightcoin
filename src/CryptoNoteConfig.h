@@ -21,7 +21,7 @@ namespace parameters {
   const uint64_t CRYPTONOTE_MAX_BLOCK_NUMBER                   = 600000000;
   const size_t   CRYPTONOTE_MAX_BLOCK_BLOB_SIZE                = 600000000;
   const size_t   CRYPTONOTE_MAX_TX_SIZE                        = 2000000000;
-  const uint64_t CRYPTONOTE_PUBLIC_ADDRESS_BASE58_PREFIX       = 0x8; // addresses start with "M"
+  '       = 0x8; // addresses start with "M"
   const size_t   CRYPTONOTE_MINED_MONEY_UNLOCK_WINDOW          = 10;
   const uint64_t CRYPTONOTE_BLOCK_FUTURE_TIME_LIMIT            = 60 * 60 * 2;
   const uint64_t CRYPTONOTE_DEFAULT_TX_SPENDABLE_AGE           = 100;
@@ -47,7 +47,7 @@ namespace parameters {
   // COIN - number of smallest units in one coin
   const uint64_t POINT                                         = UINT64_C(1000);        // pow(10, 3)
   const uint64_t COIN                                          = UINT64_C(1000000);     // pow(10, 6)
-  const uint64_t MINIMUM_FEE                                   = UINT64_C(100);        // pow(10, 3)
+  const uint64_t MINIMUM_FEE                                   = UINT64_C(100000);        // pow(10, 3)
   const uint64_t DEFAULT_DUST_THRESHOLD                        = UINT64_C(10);         // pow(10, 2)
   // Use 0 for default max transaction size limit
   const uint64_t MAX_TRANSACTION_SIZE_LIMIT                    = CRYPTONOTE_BLOCK_GRANTED_FULL_REWARD_ZONE * 125 / 100 - CRYPTONOTE_COINBASE_BLOB_RESERVED_SIZE;
